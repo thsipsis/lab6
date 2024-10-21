@@ -25,6 +25,7 @@ def main():
         op = input("Please enter an option: ")
         if op == "1":
             encode(input("Please enter your password to encode: "))
+            print("Your password has been encoded and stored!")
         elif op == "2":
             print(pw)
         #We'll just quit on any invalid input or 3, assignment doesn't mention
