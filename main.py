@@ -26,7 +26,7 @@ def main():
         if op == "1":
             encode(input("Please enter your password to encode: "))
         elif op == "2":
-            print("NOT IMPLEMENTED")
+            print(pw)
         #We'll just quit on any invalid input or 3, assignment doesn't mention
         #we need to handle invalid input
         else:
